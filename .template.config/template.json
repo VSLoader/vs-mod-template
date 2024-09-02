@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "lexisother",
+  "classifications": ["Common", "Library", "Plugin"],
+  "identity": "VSLoader.Mod.Template",
+  "name": "VSLoader Mod Template",
+  "shortName": "vsmod",
+  "sourceName": "samplemod",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sources": [
+    {
+      "include": [
+        "**/*"
+      ],
+      "exclude": [
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        "**/*.filelist",
+        "**/*.user",
+        "**/*.lock.json",
+        "**/.git/**",
+        "**/.vs/**",
+        "**/.idea/**",
+        "**/.template.config/**",
+        "**/README.md"
+      ]
+    }
+  ]
+}

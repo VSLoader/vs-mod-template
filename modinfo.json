@@ -1,0 +1,7 @@
+{
+    "Name": "samplemod",
+    "ID": "samplemod",
+    "Version": "1.0.0",
+    "Description": "sample mod",
+    "Dependencies": []
+}
